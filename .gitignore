@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+
+# Secrets - NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# User uploaded files
+data/uploads/
+data/processed/
+
+# Vector stores (large binary files)
+vectorstore/
+
+# Database
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Distribution
+dist/
+build/
+*.egg-info/
